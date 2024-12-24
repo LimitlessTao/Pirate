@@ -1,0 +1,54 @@
+{
+	"id": "BiliBili.clydetime.sub",
+	"name": "哔哩哔哩每日任务",
+	"author": "@limitlesstao",
+	"description": "哔哩哔哩功能增强系列",
+	"icon": "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/BilibiliRed.png",
+	"repo": "https://github.com/ClydeTime/BiliBili",
+	"apps":
+	[
+		{
+			"id": "BiliBili.DailyBonus",
+			"name": "BiliBili每日签到",
+			"author": "@limitlesstao",
+			"script": "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Script/BiliBiliDailyBonus.js",
+			"descs_html":
+			[
+				"使用说明请见脚本备注",
+				"填写完成后记得点击此页面底端右下角的\"保存\"。"
+			],
+			"icons":
+			[
+				"https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/BilibiliRed.png",
+				"https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/BiliUniverse.png"
+			],
+			"keys":
+			[
+				"@bilibili_daily_bonus.Settings"
+			],
+			"settings":
+			[
+				{
+					"id": "@bilibili_daily_bonus.Settings.exec",
+					"name": "投币次数",
+					"val": "5",
+					"type": "text",
+					"desc": "投币次数(用户自行设置，默认5次)"
+				},
+				{
+					"id": "@bilibili_daily_bonus.Settings.charge_mid",
+					"name": "被充电用户id",
+					"type": "text",
+					"desc": "不填写即为自己, 填写后为指定用户id充电"
+				},
+				{
+					"id": "@bilibili_daily_bonus.Settings.bp_num",
+					"name": "充电B币数",
+					"val": "5",
+					"type": "text",
+					"desc": "充电B币数量(对应每月B币券, 默认5B币, 防勿充可更改为0)"
+				}
+			]
+		},
+	]
+}
