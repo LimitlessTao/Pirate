@@ -1,7 +1,7 @@
 #原链接 : https://raw.githubusercontent.com/ClydeTime/BiliBili/master/modules/BiliBiliDailyBonus.plugin
 #!name=BiliBili每日等级任务
 #!desc=Cookie获取，每日等级任务定时运行。
-#!openUrl=app链接
+#!openUrl=https://boxjs.com/#/app/BiliBili.DailyBonus
 #!author=MartinsKing[https://github.com/ClydeTime]
 #!tag=每日等级任务
 #!system=
