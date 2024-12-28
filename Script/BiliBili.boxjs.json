@@ -1,6 +1,6 @@
 {
 	"id": "BiliBili.clydetime.sub",
-	"name": "哔哩哔哩每日任务",
+	"name": "BiliBili",
 	"author": "@limitlesstao",
 	"description": "哔哩哔哩功能增强系列",
 	"icon": "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/BilibiliRed.png",
@@ -8,7 +8,7 @@
 	"apps":
 	[
 		{
-			"id": "BiliBili.DailyBonus",
+			"id": "",
 			"name": "BiliBili每日签到",
 			"author": "@limitlesstao",
 			"script": "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Script/BiliBiliDailyBonus.js",
