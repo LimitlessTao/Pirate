@@ -8,7 +8,7 @@
 	"apps":
 	[
 		{
-			"id": "",
+			"id": "BiliBili.DailyBonus",
 			"name": "BiliBili每日签到",
 			"author": "@limitlesstao",
 			"script": "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Script/BiliBiliDailyBonus.js",
