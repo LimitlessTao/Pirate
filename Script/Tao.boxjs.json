@@ -2,8 +2,8 @@
 	"id": "limitlesstao.sub",
 	"name": "limitlesstao 脚本订阅",
 	"author": "@limitlesstao",
-	"description": "哔哩哔哩功能增强系列",
-	"icon": "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/BilibiliRed.png",
+	"description": "一念永恒",
+	"icon": "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/limitlesstao.png",
 	"repo": "https://github.com/ClydeTime/BiliBili",
 	"apps":
 	[
