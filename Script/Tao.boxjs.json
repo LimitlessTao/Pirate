@@ -1,56 +1,56 @@
 {
-	"id": "limitlesstao.sub",
-	"name": "limitlesstao 脚本订阅",
-	"author": "@limitlesstao",
-	"description": "一念永恒",
-	"icon": "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/limitlesstao.png",
-	"repo": "https://github.com/ClydeTime/BiliBili",
-	"apps":
-	[
-		{
-			"id": "BiliBili.DailyBonus",
-			"name": "⏱ BiliBili每日签到",
-			"author": "@limitlesstao",
+  "id": "limitlesstao.sub",
+  "name": "limitlesstao 脚本订阅",
+  "author": "@limitlesstao",
+  "description": "一念永恒",
+  "icon": "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/limitlesstao.png",
+  "repo": "https://github.com/limitlesstao/Pirate",
+  "apps":
+  [
+    {
+      "id": "BiliBili.DailyBonus",
+      "name": "⏱ BiliBili每日签到",
+      "author": "@limitlesstao",
       "repo": "https://github.com/limitlesstao/Pirate",
-			"script": "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Script/BiliBiliDailyBonus.js",
-			"descs_html":
-			[
-				"使用说明请见脚本备注",
-				"填写完成后记得点击此页面底端右下角的\"保存\"。"
-			],
-			"icons":
-			[
-				"https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/BiliUniverse.png",
-				"https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/BiliUniverse.png"
-			],
-			"keys":
-			[
-				"@bilibili_daily_bonus.Settings"
-			],
-			"settings":
-			[
-				{
-					"id": "@bilibili_daily_bonus.Settings.exec",
-					"name": "投币次数",
-					"val": "5",
-					"type": "text",
-					"desc": "投币次数(用户自行设置，默认5次)"
-				},
-				{
-					"id": "@bilibili_daily_bonus.Settings.charge_mid",
-					"name": "被充电用户id",
-					"type": "text",
-					"desc": "不填写即为自己, 填写后为指定用户id充电"
-				},
-				{
-					"id": "@bilibili_daily_bonus.Settings.bp_num",
-					"name": "充电B币数",
-					"val": "5",
-					"type": "text",
-					"desc": "充电B币数量(对应每月B币券, 默认5B币, 防勿充可更改为0)"
-				}
-			]
-		},
+      "script": "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Script/BiliBiliDailyBonus.js",
+      "descs_html":
+      [
+        "使用说明请见脚本备注",
+        "填写完成后记得点击此页面底端右下角的\"保存\"。"
+      ],
+      "icons":
+      [
+        "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/BiliUniverse.png",
+        "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/BiliUniverse.png"
+      ],
+      "keys":
+      [
+        "@bilibili_daily_bonus.Settings"
+      ],
+      "settings":
+      [
+        {
+          "id": "@bilibili_daily_bonus.Settings.exec",
+          "name": "投币次数",
+          "val": "5",
+          "type": "text",
+          "desc": "投币次数(用户自行设置，默认5次)"
+        },
+        {
+          "id": "@bilibili_daily_bonus.Settings.charge_mid",
+          "name": "被充电用户id",
+          "type": "text",
+          "desc": "不填写即为自己, 填写后为指定用户id充电"
+        },
+        {
+          "id": "@bilibili_daily_bonus.Settings.bp_num",
+          "name": "充电B币数",
+          "val": "5",
+          "type": "text",
+          "desc": "充电B币数量(对应每月B币券, 默认5B币, 防勿充可更改为0)"
+        }
+      ]
+    },
     {
       "id": "95598.web",
       "name": "网上国网",
@@ -95,7 +95,7 @@
           "desc": ""
         }
       ],
-			"author": "@limitlesstao",
+      "author": "@limitlesstao",
       "repo": "https://github.com/limitlesstao/Pirate",
       "icons": [
         "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/83/d8/8a/83d88a92-5a4d-7a2f-118c-80d795e7a9f6/AppIcon-0-0-1x_U007emarketing-0-5-0-0-sRGB-85-220.png/144x144.png",
@@ -103,5 +103,5 @@
       ],
       "script": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/95598/95598.js"
     }
-	]
+  ]
 }
