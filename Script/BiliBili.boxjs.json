@@ -1,6 +1,6 @@
 {
-	"id": "BiliBili.clydetime.sub",
-	"name": "📺 BiliBili",
+	"id": "limitlesstao.sub",
+	"name": "limitlesstao 脚本订阅",
 	"author": "@limitlesstao",
 	"description": "哔哩哔哩功能增强系列",
 	"icon": "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/BilibiliRed.png",
@@ -11,6 +11,7 @@
 			"id": "BiliBili.DailyBonus",
 			"name": "⏱ BiliBili每日签到",
 			"author": "@limitlesstao",
+      "repo": "https://github.com/limitlesstao/Pirate",
 			"script": "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Script/BiliBiliDailyBonus.js",
 			"descs_html":
 			[
@@ -19,7 +20,7 @@
 			],
 			"icons":
 			[
-				"https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/BilibiliRed.png",
+				"https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/BiliUniverse.png",
 				"https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/BiliUniverse.png"
 			],
 			"keys":
@@ -49,6 +50,58 @@
 					"desc": "充电B币数量(对应每月B币券, 默认5B币, 防勿充可更改为0)"
 				}
 			]
-		}
+		},
+    {
+      "id": "95598.web",
+      "name": "网上国网",
+      "descs_html": ["<a target='_blank' href='https://github.com/Yuheng0101/X/tree/main/Tasks/95598'>README.md👈相关配置请点击</a>"],
+      "keys": ["95598_log_debug", "95598_recent_elc_fee", "95598_notify_type", "95598_username", "95598_password", "95598_bizrt", "95598_bindInfo"],
+      "settings": [
+        {
+          "id": "95598_log_debug",
+          "name": "是否输出日志",
+          "val": false,
+          "type": "boolean",
+          "desc": ""
+        },
+        {
+          "id": "95598_recent_elc_fee",
+          "name": "是否查看近期用电量",
+          "val": false,
+          "type": "boolean",
+          "desc": ""
+        },
+        {
+          "id": "95598_notify_type",
+          "name": "是否通知全部绑定户号",
+          "val": false,
+          "type": "boolean",
+          "desc": ""
+        },
+        {
+          "id": "95598_username",
+          "name": "账号",
+          "val": null,
+          "type": "text",
+          "rows": 1,
+          "desc": "手机号"
+        },
+        {
+          "id": "95598_password",
+          "name": "密码",
+          "val": null,
+          "type": "text",
+          "rows": 1,
+          "desc": ""
+        }
+      ],
+			"author": "@limitlesstao",
+      "repo": "https://github.com/limitlesstao/Pirate",
+      "icons": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/83/d8/8a/83d88a92-5a4d-7a2f-118c-80d795e7a9f6/AppIcon-0-0-1x_U007emarketing-0-5-0-0-sRGB-85-220.png/144x144.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/83/d8/8a/83d88a92-5a4d-7a2f-118c-80d795e7a9f6/AppIcon-0-0-1x_U007emarketing-0-5-0-0-sRGB-85-220.png/144x144.png"
+      ],
+      "script": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/95598/95598.js"
+    }
 	]
 }
