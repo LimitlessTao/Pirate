@@ -1,18 +1,18 @@
 {
-  "id": "limitlesstao.sub",
-  "name": "limitlesstao 脚本订阅",
-  "author": "@limitlesstao",
+  "id": "LimitlessTao.sub",
+  "name": "LimitlessTao 脚本订阅",
+  "author": "@LimitlessTao",
   "description": "一念永恒",
-  "icon": "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/limitlesstao.png",
-  "repo": "https://github.com/limitlesstao/Pirate",
+  "icon": "https://raw.githubusercontent.com/LimitlessTao/Pirate/main/Icon/LimitlessTao.png",
+  "repo": "https://github.com/LimitlessTao/Pirate",
   "apps":
   [
     {
       "id": "BiliBili.DailyBonus",
       "name": "⏱ BiliBili每日签到",
-      "author": "@limitlesstao",
-      "repo": "https://github.com/limitlesstao/Pirate",
-      "script": "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Script/BiliBiliDailyBonus.js",
+      "author": "@LimitlessTao",
+      "repo": "https://github.com/LimitlessTao/Pirate",
+      "script": "https://raw.githubusercontent.com/LimitlessTao/Pirate/main/Script/BiliBiliDailyBonus.js",
       "descs_html":
       [
         "使用说明请见脚本备注",
@@ -20,8 +20,8 @@
       ],
       "icons":
       [
-        "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/BiliUniverse.png",
-        "https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/BiliUniverse.png"
+        "https://raw.githubusercontent.com/LimitlessTao/Pirate/main/Icon/BiliUniverse.png",
+        "https://raw.githubusercontent.com/LimitlessTao/Pirate/main/Icon/BiliUniverse.png"
       ],
       "keys":
       [
@@ -95,8 +95,8 @@
           "desc": ""
         }
       ],
-      "author": "@limitlesstao",
-      "repo": "https://github.com/limitlesstao/Pirate",
+      "author": "@LimitlessTao",
+      "repo": "https://github.com/LimitlessTao/Pirate",
       "icons": [
         "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/83/d8/8a/83d88a92-5a4d-7a2f-118c-80d795e7a9f6/AppIcon-0-0-1x_U007emarketing-0-5-0-0-sRGB-85-220.png/144x144.png",
         "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/83/d8/8a/83d88a92-5a4d-7a2f-118c-80d795e7a9f6/AppIcon-0-0-1x_U007emarketing-0-5-0-0-sRGB-85-220.png/144x144.png"

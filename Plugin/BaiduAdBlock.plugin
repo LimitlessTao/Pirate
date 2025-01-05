@@ -7,7 +7,7 @@
 #!system_version=
 #!loon_version=3.2.4(787)
 #!homepage=https://github.com/zqzess/rule_for_quantumultX
-#!icon=https://raw.githubusercontent.com/limitlesstao/Pirate/main/Icon/Baidu.png
+#!icon=https://raw.githubusercontent.com/LimitlessTao/Pirate/main/Icon/Baidu.png
 #!date=2024-12-17 00:00:00
 
 
@@ -55,7 +55,7 @@ https:\/\/pan\.baidu\.com\/component\/view\/(1510|1130)\?vip _ reject
 
 [Script]
 # > 百度
-http-response ^https?:\/\/(www|m)\.baidu\.com\/?($|\?from=\w{8,9}) script-path=https://raw.githubusercontent.com/limitlesstao/Pirate/main/Script/Baiduads.js, requires-body=true, tag=移除百度搜索首页信息流广告
+http-response ^https?:\/\/(www|m)\.baidu\.com\/?($|\?from=\w{8,9}) script-path=https://raw.githubusercontent.com/LimitlessTao/Pirate/main/Script/Baiduads.js, requires-body=true, tag=移除百度搜索首页信息流广告
 
 [MITM]
 hostname=sofire.baidu.com,ndstatic.cdn.bcebos.com,pan.baidu.com,staticsns.cdn.bcebos.com,issuecdn.baidupcs.com,dss0.bdstatic.com,*.tieba.baidu.com,m.baidu.com,www.baidu.com
