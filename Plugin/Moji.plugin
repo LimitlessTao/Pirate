@@ -1,8 +1,14 @@
-#!name= 墨迹天气
-#!desc=墨迹天气解锁
-#!author = chxm1023
-#!icon=https://raw.githubusercontent.com/chxm1023/Task/main/icon/caiyun.png
-#!category=🔏软件解锁
+#!name=墨迹天气
+#!desc=墨迹天气VIP解锁
+#!openUrl=https://apps.apple.com/app/id434209233
+#!author=chxm1023
+#!tag=VIP解锁
+#!system=
+#!system_version=
+#!loon_version=
+#!homepage=
+#!icon=https://raw.githubusercontent.com/LimitlessTao/Pirate/main/Icon/Moji.png
+#!date=2025-01-09 15:01:37
 
 [Script]
 # 墨迹天气
