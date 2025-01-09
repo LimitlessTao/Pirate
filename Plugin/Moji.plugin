@@ -1,0 +1,12 @@
+#!name= 墨迹天气
+#!desc=墨迹天气解锁
+#!author = chxm1023
+#!icon=https://raw.githubusercontent.com/chxm1023/Task/main/icon/caiyun.png
+#!category=🔏软件解锁
+
+[Script]
+# 墨迹天气
+http-response ^https?:\/\/.*\.api\.moji\.com\/(sns\/json\/profile\/get_info_.+|json\/member_new\/homepage_info.+|user\/personal\/json\/profile_.+|flycard\/novice|shortvideo\/.+) script-path=https://raw.githubusercontent.com/LimitlessTao/Pirate/main/Script/Moji.js, requires-body=true, tag=墨迹天气
+
+[MITM]
+hostname = *.api.moji.com
